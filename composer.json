@@ -19,6 +19,8 @@
         "drupal/core-composer-scaffold": "^9.1",
         "drupal/core-project-message": "^9.1",
         "drupal/core-recommended": "^9.1",
+        "drupal/rules": "3.x-dev@dev",
+        "drupal/typed_data": "1.x-dev@dev",
         "drush/drush": "^10.5"
     },
     "conflict": {
