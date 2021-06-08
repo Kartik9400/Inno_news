@@ -1,0 +1,30 @@
+uuid: a7e28f4e-2d98-4bbe-b271-81b3d80024dd
+langcode: en
+status: true
+dependencies: {  }
+id: news_content_editor
+label: 'News Content Editor'
+weight: -8
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'administer nodes'
+  - 'create article content'
+  - 'create news content'
+  - 'create page content'
+  - 'delete article revisions'
+  - 'delete news revisions'
+  - 'delete own article content'
+  - 'delete own news content'
+  - 'delete own page content'
+  - 'delete page revisions'
+  - 'edit own article content'
+  - 'edit own news content'
+  - 'edit own page content'
+  - 'revert article revisions'
+  - 'revert news revisions'
+  - 'revert page revisions'
+  - 'view article revisions'
+  - 'view news revisions'
+  - 'view page revisions'
