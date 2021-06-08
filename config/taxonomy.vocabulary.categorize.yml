@@ -1,0 +1,8 @@
+uuid: 7be139d6-c0a7-406c-91c3-f07f686dab2e
+langcode: en
+status: true
+dependencies: {  }
+name: Categorize
+vid: categorize
+description: 'Categorize the news based on the content. Like sports news should belong to the sports categrization and so on.'
+weight: 0
