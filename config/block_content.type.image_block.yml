@@ -1,0 +1,8 @@
+uuid: ccebe506-4d53-4112-89ef-c5c480cdbfc4
+langcode: en
+status: true
+dependencies: {  }
+id: image_block
+label: 'Signup info'
+revision: 0
+description: 'To show image and message on the website'

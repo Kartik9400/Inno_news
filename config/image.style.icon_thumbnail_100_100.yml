@@ -1,0 +1,15 @@
+uuid: 4d794414-79ba-40d3-a30f-c5c1e5fc45d5
+langcode: en
+status: true
+dependencies: {  }
+name: icon_thumbnail_100_100
+label: 'Icon thumbnail (100*100)'
+effects:
+  2458d670-a34a-4d3e-85da-b5dfd9e7cc60:
+    uuid: 2458d670-a34a-4d3e-85da-b5dfd9e7cc60
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 100
+      height: 100
+      anchor: center-center
