@@ -1,6 +1,6 @@
 uuid: 31d3f31b-2f4c-4a9a-96b8-ae17f8eaadf8
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
@@ -55,7 +55,10 @@ display:
           items_per_page: 10
           offset: 0
           id: 0
-          total_pages: 0
+          total_pages: null
+          tags:
+            previous: ‹‹
+            next: ››
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -64,9 +67,6 @@ display:
             items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: Offset
-          tags:
-            previous: ‹‹
-            next: ››
       sorts:
         sticky:
           id: sticky
@@ -267,10 +267,23 @@ display:
         type: views_query
         options: {  }
       pager:
-        type: some
+        type: mini
         options:
           items_per_page: 10
           offset: 0
+          id: 0
+          total_pages: null
+          tags:
+            previous: ‹‹
+            next: ››
+          expose:
+            items_per_page: false
+            items_per_page_label: 'Items per page'
+            items_per_page_options: '5, 10, 25, 50'
+            items_per_page_options_all: false
+            items_per_page_options_all_label: '- All -'
+            offset: false
+            offset_label: Offset
       path: taxonomy/term/%/feed
       displays:
         page_1: page_1
@@ -291,6 +304,7 @@ display:
       contexts:
         - 'languages:language_interface'
         - url
+        - url.query_args
         - 'user.node_grants:view'
         - user.permissions
       max-age: -1
@@ -306,6 +320,9 @@ display:
         options: {  }
       path: taxonomy/term/%
       display_extenders: {  }
+      title: 'Related News'
+      defaults:
+        title: false
     cache_metadata:
       contexts:
         - 'languages:language_interface'
