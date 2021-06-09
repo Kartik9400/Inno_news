@@ -21,14 +21,14 @@ content:
     type: text_summary_or_trimmed
     weight: 101
     settings:
-      trim_length: 600
+      trim_length: 150
     third_party_settings: {  }
     region: content
   links:
     weight: 100
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
   field_categorize: true
   field_main_image: true
