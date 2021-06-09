@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.image_block
     - field.field.block_content.image_block.body
     - field.field.block_content.image_block.field_image_block_type
-    - image.style.icon_thumbnail_100_100_
+    - image.style.icon_thumbnail_100_100
   module:
     - image
     - text
@@ -28,7 +28,7 @@ content:
   field_image_block_type:
     weight: 26
     settings:
-      preview_image_style: icon_thumbnail_100_100_
+      preview_image_style: icon_thumbnail_100_100
       progress_indicator: throbber
     third_party_settings: {  }
     type: image_image

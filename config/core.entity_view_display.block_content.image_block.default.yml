@@ -6,7 +6,7 @@ dependencies:
     - block_content.type.image_block
     - field.field.block_content.image_block.body
     - field.field.block_content.image_block.field_image_block_type
-    - image.style.icon_thumbnail_100_100_
+    - image.style.icon_thumbnail_100_100
   module:
     - image
     - text
@@ -26,7 +26,7 @@ content:
     weight: 0
     label: hidden
     settings:
-      image_style: icon_thumbnail_100_100_
+      image_style: icon_thumbnail_100_100
       image_link: ''
     third_party_settings: {  }
     type: image
