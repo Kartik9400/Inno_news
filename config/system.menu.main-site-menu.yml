@@ -1,0 +1,8 @@
+uuid: 86cd657c-ba3b-4f67-a1c2-ef8ff71a5c09
+langcode: en
+status: true
+dependencies: {  }
+id: main-site-menu
+label: 'Main site menu'
+description: 'This menu is main site menu which work as main navigation'
+locked: false

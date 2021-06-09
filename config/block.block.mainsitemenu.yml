@@ -1,0 +1,25 @@
+uuid: 8c045cfe-f1cb-48e1-8e1b-062029d276ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main-site-menu
+  module:
+    - system
+  theme:
+    - bartik
+id: mainsitemenu
+theme: bartik
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main-site-menu'
+settings:
+  id: 'system_menu_block:main-site-menu'
+  label: 'Main site menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
