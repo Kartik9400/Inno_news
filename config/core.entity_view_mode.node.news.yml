@@ -1,0 +1,10 @@
+uuid: a6ef4f36-36ea-4cd1-89fc-c8795f8f1208
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.news
+label: News
+targetEntityType: node
+cache: true
