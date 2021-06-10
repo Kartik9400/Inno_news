@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.news.body
     - field.field.node.news.field_categorize
     - field.field.node.news.field_main_image
+    - field.field.node.news.field_news_comments
     - image.style.medium
     - node.type.news
   module:
@@ -36,4 +37,5 @@ content:
     region: content
 hidden:
   body: true
+  field_news_comments: true
   links: true
