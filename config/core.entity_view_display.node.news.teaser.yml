@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.news.body
     - field.field.node.news.field_categorize
     - field.field.node.news.field_main_image
+    - field.field.node.news.field_news_comments
     - node.type.news
   module:
     - text
@@ -32,3 +33,4 @@ content:
 hidden:
   field_categorize: true
   field_main_image: true
+  field_news_comments: true
