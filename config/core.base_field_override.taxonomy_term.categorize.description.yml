@@ -1,0 +1,20 @@
+uuid: f158e207-7a51-4746-a193-20586ce6d6e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.categorize
+  module:
+    - text
+id: taxonomy_term.categorize.description
+field_name: description
+entity_type: taxonomy_term
+bundle: categorize
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

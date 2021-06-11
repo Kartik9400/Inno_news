@@ -6,7 +6,14 @@ dependencies:
     - block_content.type.image_block
     - field.storage.block_content.field_image_block_type
   module:
+    - content_translation
     - image
+third_party_settings:
+  content_translation:
+    translation_sync:
+      alt: alt
+      title: title
+      file: '0'
 id: block_content.image_block.field_image_block_type
 field_name: field_image_block_type
 entity_type: block_content
@@ -14,7 +21,7 @@ bundle: image_block
 label: 'Image block type'
 description: 'This is the image to attract users towards the information'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

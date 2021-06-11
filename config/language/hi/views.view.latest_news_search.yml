@@ -1,0 +1,19 @@
+label: 'नवीनतम समाचार खोज'
+description: 'यह दृश्य समाचार प्रकार की खोजी गई सामग्री की ओर इशारा कर रहा है'
+display:
+  default:
+    display_options:
+      empty:
+        area:
+          content:
+            value: "<p>कोई परिणाम नहीं मिला</p>\r\n"
+            format: basic_html
+      exposed_form:
+        options:
+          submit_button: लागू
+      filters:
+        search_api_fulltext:
+          expose:
+            label: खोज
+            placeholder: ' समाचार के शीर्षक और मुख्य भाग के आधार पर खोजें'
+      title: 'नवीनतम समाचार खोज'

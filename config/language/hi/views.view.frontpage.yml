@@ -1,0 +1,8 @@
+display:
+  default:
+    display_options:
+      empty:
+        area_text_custom:
+          content: 'अब तक कोई प्रथम पृष्ठ सामग्री बनाई नहीं गई है.<br/>का पीछा करो <a target="_blank" href="https://www.drupal.org/docs/user_guide/en/index.html">उपयोगकर्ता गाइड</a> अपनी साइट का निर्माण शुरू करने के लिए।'
+        title:
+          title: 'आपका स्वागत है [site:name] पे'

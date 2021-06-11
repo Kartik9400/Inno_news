@@ -1,0 +1,18 @@
+uuid: 205638f8-b9bd-44ba-8764-b0948bea0bc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.news_comments
+id: comment.news_comments.subject
+field_name: subject
+entity_type: comment
+bundle: news_comments
+label: Subject
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

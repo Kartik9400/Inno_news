@@ -34,3 +34,5 @@ hidden:
   field_categorize: true
   field_main_image: true
   field_news_comments: true
+  langcode: true
+  search_api_excerpt: true
