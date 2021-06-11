@@ -11,7 +11,7 @@ dependencies:
 id: exposedformlatest_news_searchpage_1
 theme: bartik
 region: sidebar_first
-weight: 0
+weight: -9
 provider: null
 plugin: 'views_exposed_filter_block:latest_news_search-page_1'
 settings:

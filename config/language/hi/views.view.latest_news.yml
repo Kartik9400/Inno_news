@@ -1,0 +1,6 @@
+label: 'ताजा खबर'
+description: 'इस दृश्य का उपयोग करके नवीनतम समाचार दिखाए जाएंगे'
+display:
+  default:
+    display_options:
+      title: 'ताजा खबर'

@@ -1,0 +1,18 @@
+uuid: db8a7630-953f-43e8-8278-71e9a75cdffb
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.news_comments
+id: comment.news_comments.changed
+field_name: changed
+entity_type: comment
+bundle: news_comments
+label: Changed
+description: 'The time that the comment was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

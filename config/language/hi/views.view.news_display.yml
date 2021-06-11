@@ -1,0 +1,9 @@
+label: 'समाचार प्रदर्शन'
+description: 'समाचार प्रदर्शन मोड के लिए देखें'
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: लागू
+      title: 'समाचार प्रदर्शन'
