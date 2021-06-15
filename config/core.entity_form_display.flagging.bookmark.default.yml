@@ -1,0 +1,12 @@
+uuid: 53582216-5ae1-4783-8a1d-131232db79c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.bookmark
+id: flagging.bookmark.default
+targetEntityType: flagging
+bundle: bookmark
+mode: default
+content: {  }
+hidden: {  }

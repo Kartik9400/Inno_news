@@ -1,0 +1,32 @@
+uuid: 3c28e7ea-5c81-4f5e-b4c4-b08f3aa4477c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: bookmark
+label: Bookmark
+bundles:
+  - news
+entity_type: node
+global: false
+weight: 0
+flag_short: 'Bookmark this item'
+flag_long: 'You can bookmark this item'
+flag_message: 'You bookmarked this item'
+unflag_short: 'Remove bookmark'
+unflag_long: 'You already add a bookmark'
+unflag_message: 'You removed the bookmark'
+unflag_denied_text: ''
+flag_type: 'entity:node'
+link_type: ajax_link
+flagTypeConfig:
+  show_in_links:
+    full: full
+    teaser: teaser
+  show_as_field: true
+  show_on_form: false
+  show_contextual_link: false
+  extra_permissions:
+    owner: '0'
+linkTypeConfig: {  }

@@ -1,22 +1,22 @@
-uuid: 1f0f5bc7-9d27-4ddb-b3a9-dc9553997128
+uuid: 5b10131a-0f2d-457a-9a6c-aeb4d8b1992b
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.latest_news
+    - views.view.bookmarked_news
   module:
     - system
     - views
   theme:
     - bartik
-id: views_block__latest_news_block_1
+id: views_block__bookmarked_news_block_1
 theme: bartik
 region: content
-weight: -5
+weight: -2
 provider: null
-plugin: 'views_block:latest_news-block_1'
+plugin: 'views_block:bookmarked_news-block_1'
 settings:
-  id: 'views_block:latest_news-block_1'
+  id: 'views_block:bookmarked_news-block_1'
   label: ''
   provider: views
   label_display: visible
@@ -25,5 +25,5 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: '<front>'
+    pages: '/user/*'
     negate: false
