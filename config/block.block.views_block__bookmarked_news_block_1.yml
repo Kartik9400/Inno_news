@@ -1,0 +1,29 @@
+uuid: 5b10131a-0f2d-457a-9a6c-aeb4d8b1992b
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.bookmarked_news
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__bookmarked_news_block_1
+theme: bartik
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:bookmarked_news-block_1'
+settings:
+  id: 'views_block:bookmarked_news-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '/user/*'
+    negate: false
