@@ -1,0 +1,20 @@
+uuid: f63a9084-7d88-4544-b680-1b1c245a3123
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_languageswitcher
+theme: bootstrap_barrio
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  provider: language
+  label_display: visible
+visibility: {  }

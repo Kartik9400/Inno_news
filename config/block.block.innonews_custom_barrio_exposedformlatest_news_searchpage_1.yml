@@ -1,0 +1,23 @@
+uuid: 724fd6d7-6d56-498d-8029-a124ca28ee2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.latest_news_search
+  module:
+    - views
+  theme:
+    - innonews_custom_barrio
+id: innonews_custom_barrio_exposedformlatest_news_searchpage_1
+theme: innonews_custom_barrio
+region: sidebar_first
+weight: -9
+provider: null
+plugin: 'views_exposed_filter_block:latest_news_search-page_1'
+settings:
+  id: 'views_exposed_filter_block:latest_news_search-page_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility: {  }

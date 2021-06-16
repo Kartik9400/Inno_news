@@ -1,0 +1,5 @@
+# Schema for the configuration files of the Innonews Custom Barrio Theme Subtheme.
+
+innonews_custom_barrio.settings:
+  type: bootstrap_barrio.settings
+  label: 'Innonews Custom Barrio Theme settings'

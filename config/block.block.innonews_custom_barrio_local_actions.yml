@@ -1,0 +1,20 @@
+uuid: 19a30c47-a1f2-4b59-913d-7fc3d83d4a9b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - innonews_custom_barrio
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: innonews_custom_barrio_local_actions
+theme: innonews_custom_barrio
+region: content
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
