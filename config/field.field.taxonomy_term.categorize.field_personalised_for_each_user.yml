@@ -1,0 +1,29 @@
+uuid: a26aee46-cb0b-4143-84e4-8f30d3038b47
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_personalised_for_each_user
+    - taxonomy.vocabulary.categorize
+id: taxonomy_term.categorize.field_personalised_for_each_user
+field_name: field_personalised_for_each_user
+entity_type: taxonomy_term
+bundle: categorize
+label: 'Personalisation for each user'
+description: 'Add users to particular categories that will help in personalize data for each user'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: true
+    filter:
+      type: _none
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+field_type: entity_reference

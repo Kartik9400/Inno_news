@@ -1,0 +1,32 @@
+uuid: e2e17e84-666c-40ba-91f2-b6f99d372326
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.categorize.field_personalised_for_each_user
+    - taxonomy.vocabulary.categorize
+  module:
+    - text
+id: taxonomy_term.categorize.default
+targetEntityType: taxonomy_term
+bundle: categorize
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_personalised_for_each_user:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true
