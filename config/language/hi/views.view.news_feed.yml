@@ -1,0 +1,11 @@
+label: 'समाचार फ़ीड'
+description: 'समाचार फ़ीड दृश्य उपयोगकर्ता के लिए वैयक्तिकृत विशिष्ट श्रेणी की खबरें दिखाता है'
+display:
+  default:
+    display_options:
+      title: 'समाचार फ़ीड'
+  page_1:
+    display_options:
+      menu:
+        title: 'समाचार फ़ीड'
+        description: 'व्यक्तिगत समाचार फ़ीड की ओर इशारा करते हुए यह लिंक'
