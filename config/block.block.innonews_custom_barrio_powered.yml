@@ -1,0 +1,22 @@
+uuid: e625919b-84ab-4275-a947-5e1395e2026d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - innonews_custom_barrio
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: innonews_custom_barrio_powered
+theme: innonews_custom_barrio
+region: footer_fifth
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

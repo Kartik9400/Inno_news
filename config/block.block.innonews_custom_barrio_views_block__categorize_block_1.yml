@@ -1,0 +1,25 @@
+uuid: 2370c9ea-9a4f-48b8-85a6-09c34ccd93f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.categorize
+  module:
+    - views
+  theme:
+    - innonews_custom_barrio
+id: innonews_custom_barrio_views_block__categorize_block_1
+theme: innonews_custom_barrio
+region: content
+weight: -3
+provider: null
+plugin: 'views_block:categorize-block_1'
+settings:
+  id: 'views_block:categorize-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility: {  }

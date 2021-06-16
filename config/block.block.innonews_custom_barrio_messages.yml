@@ -1,0 +1,22 @@
+uuid: ac7f20e8-012a-48cf-9c6b-04a01a7e1319
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - innonews_custom_barrio
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: innonews_custom_barrio_messages
+theme: innonews_custom_barrio
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

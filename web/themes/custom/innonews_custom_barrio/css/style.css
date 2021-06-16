@@ -1,0 +1,18 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+
+@media (min-width: 992px) {
+  a.navbar-brand {
+    display: grid;
+  }
+}
+.views-row {
+    margin: 10px 0;
+    background-color: aliceblue;
+}
+#block-innonews-custom-barrio-page-title {
+    text-align: center;
+    padding: 10px 0;
+}

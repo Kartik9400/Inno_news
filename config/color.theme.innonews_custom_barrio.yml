@@ -1,0 +1,18 @@
+palette:
+  top: '#f42020'
+  bottom: '#c62020'
+  bg: '#ffffff'
+  sidebar: '#f1f4f0'
+  sidebarborders: '#ededed'
+  footer: '#1f1d1c'
+  button: '#4a1d20'
+  buttonhover: '#f20e1d'
+  titleslogan: '#6f95f2'
+  text: '#c8cedb'
+  link: '#d6121f'
+logo: 'public://color/innonews_custom_barrio-09ff8b53/logo.svg'
+stylesheets:
+  - 'public://color/innonews_custom_barrio-09ff8b53/colors.css'
+files:
+  - 'public://color/innonews_custom_barrio-09ff8b53/logo.svg'
+  - 'public://color/innonews_custom_barrio-09ff8b53/colors.css'

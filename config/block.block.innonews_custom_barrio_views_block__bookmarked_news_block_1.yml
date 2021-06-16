@@ -1,0 +1,29 @@
+uuid: 48d23c8c-f736-4f55-9b5e-4a0cfe590414
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.bookmarked_news
+  module:
+    - system
+    - views
+  theme:
+    - innonews_custom_barrio
+id: innonews_custom_barrio_views_block__bookmarked_news_block_1
+theme: innonews_custom_barrio
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:bookmarked_news-block_1'
+settings:
+  id: 'views_block:bookmarked_news-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '/user/*'
+    negate: false
