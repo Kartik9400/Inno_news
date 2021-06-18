@@ -10,9 +10,9 @@ palette:
   titleslogan: '#000000'
   text: '#4a4a4a'
   link: '#019dbf'
-logo: 'public://color/innonews_custom_barrio-98e9ec74/logo.svg'
+logo: 'public://color/innonews_custom_barrio-87da96b8/logo.svg'
 stylesheets:
-  - 'public://color/innonews_custom_barrio-98e9ec74/colors.css'
+  - 'public://color/innonews_custom_barrio-87da96b8/colors.css'
 files:
-  - 'public://color/innonews_custom_barrio-98e9ec74/logo.svg'
-  - 'public://color/innonews_custom_barrio-98e9ec74/colors.css'
+  - 'public://color/innonews_custom_barrio-87da96b8/logo.svg'
+  - 'public://color/innonews_custom_barrio-87da96b8/colors.css'
